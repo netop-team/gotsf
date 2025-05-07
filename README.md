@@ -1,44 +1,16 @@
-### Run Configuration for `run.py` (under construction...)
+<div align="center">
+<h1>Goal-Oriented Time-Series Forecasting: Foundation Framework Design 📈</h1>
 
-This document outlines the configuration for running the `run.py` script.
+[![paper](https://img.shields.io/static/v1?label=arXiv&message=2402.03885&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2504.17493)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/papers/2504.17493)
+[![5G Dataset](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/datasets/netop/Beam-Level-Traffic-Timeseries-Dataset)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/MIT)
 
-**Base Configuration**
+</div>
+This repository contains the official implementation of the paper:
 
-```
-python3 run.py  --is_training 1 --root_path ./dataset/wireless/ --data_path wireless.csv --model_id wireless_96_24_hase --model iTransformer --data custom --features M --seq_len 96 --pred_len 24 --e_layers 1 --enc_in 8 --dec_in 8 --c_out 8 --des Exp --d_model 32 --d_ff 128 --itr 1 --batch_size 32
-```
+   >Luca-Andrei Fechete, Mohamed Sana, Fadhel Ayed, Nicola Piovesan, Wenjie Li, Antonio De Domenico, Tareq Si Salem.
+   [Goal-Oriented Time-Series Forecasting: Foundation Framework Design](https://arxiv.org/pdf/2504.17493).
 
-**Training Modes**
-
-* **Normal Training:** Set `--use_deltas` to 0 (default).
-* **Fixed Interval Training:** Set `--use_deltas` to 1 and define the intervals using hyperparameters.
-* **Dynamic Interval Training (Uniform Distribution):** Set `--use_deltas` to 2.
-* **Dynamic Interval Training (Fixed Interval):** Set `--use_deltas` to 3.
-
-**Evaluation Options**
-
-* `--loss_delta1, --loss_delta2`: Define the start and end points of the evaluation interval.
-* `--evaluate_on_interval`: Set to `True` to evaluate the test set on the specified interval.
-* `--loss_weight_less_importance`: Weight for the loss outside the evaluation interval (less important).
-* `--w_hat`: Minimum distance of the interval for dynamic training with uniform distribution (use_deltas=2).
-* `--interval_length`: The number of intervals you want to have in the interval list for random sampling (use_deltas=3)
-
-**File Paths**
-
-* Checkpoints: Saved to the `/checkpoints` directory.
-* Results: Predictions, true values, and metrics are saved to the `/results` directory.
-
-**Additional Notes**
-
-* The script utilizes the `iTransformer` model with custom data (`--data custom`).
-* Features are specified by `--features M`.
-* Sequence length (`--seq_len`) is set to 96 and prediction length (`--pred_len`) is set to 24.
-
-========
-
-* 1 script to execute baseline model with uniform importance over target values
-* 5 scripts to execute interval-specific models. [min, min + (max-min)/ 5] is one
-  model, [min+ (max-min)/ 5, min + 2 *(max-min)/ 5] is another model
-* 1 script to execute randomly sampled intervals model. w.p. 1/6 it will select one of the intervals   [min, min + (max-min)/ 5],.... etc.
-* 1 script to execute randomly sample interval model u.a.r.
-* Total: 8 script. Put in same file (ending with .sh). one script after another running sequentially. 
+### 📝 Abstract:
+Traditional time-series forecasting often focuses only on minimizing prediction errors, ignoring the specific requirements of real-world applications that employ them. This paper presents a new training methodology, which allows a forecasting model to dynamically adjust its focus based on the importance of forecast ranges specified by the end application. Unlike previous methods that fix these ranges beforehand, our training approach breaks down predictions over the entire signal range into smaller segments, which are then dynamically weighted and combined to produce accurate forecasts. We tested our method on standard datasets, including a new dataset from wireless communication, and found that not only it improves prediction accuracy but also improves the performance of end application employing the forecasting model. This research provides a basis for creating forecasting systems that better connect prediction and decision-making in various practical applications.
