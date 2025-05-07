@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Goal-Oriented Time-Series Forecasting: Foundation Framework Design</h1>
+<h1>Goal-Oriented Time-Series Forecasting:<br> Foundation Framework Design</h1>
 
 [![paper](https://img.shields.io/static/v1?label=arXiv&message=2402.03885&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2504.17493)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/papers/2504.17493)
