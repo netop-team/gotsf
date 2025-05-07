@@ -79,7 +79,7 @@ python -u script_train.py \
     --train_interval_u <INTERVAL_UPPER> \   # Upper bound of sub-intervals (exclusive)  
     --loss "<LOSS_FUNCTION>" &              # Loss function to optimize (e.g., “MSE”)
 ```
-Patching-Augmented Discretized Training Policy (D⋆ L-Policy).
+*Patching-Augmented Discretized Training Policy ($D^\star_L$-Policy).*
 ```
 python -u script_train.py \
     --root_path "<ROOT_PATH>" \               # Path to the dataset root directory  
