@@ -113,7 +113,7 @@ python -u script_train.py \
 ```
 
 
-## 📜 Citing GOTSF
+## 📜 Citation 
 
 If you find this repo helpful, please cite our paper. 
 
