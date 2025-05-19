@@ -11,10 +11,12 @@
 [![Python: 3.10](https://img.shields.io/badge/Python-3.10-blue)]()
 
 </div>
+<div align="center">
 This repository contains the official implementation of the paper:
-
-   >L. Fechete*†, M. Sana†, F. Ayed†, N. Piovesan†, W. Li†, A. De Domenico†, T. Si Salem†‡.   Goal-Oriented Time-Series Forecasting: Foundation Framework Design.
-   ><br>* École Polytechnique, Palaiseau, France (Research Intern);<br>† Paris Research Center, Huawei Technologies, Boulogne-Billancourt, France;<br>‡ Lead Researcher for this study.
+**Goal-Oriented Time-Series Forecasting: Foundation Framework Design.** 
+   <br>L. Fechete*†, M. Sana†, F. Ayed†, N. Piovesan†, W. Li†, A. De Domenico†, T. Si Salem†‡.    
+</div>
+* École Polytechnique, Palaiseau, France (Research Intern);<br>† Paris Research Center, Huawei Technologies, Boulogne-Billancourt, France;<br>‡ Lead Researcher for this study.
 
 ## 📝 Abstract:
 Traditional time-series forecasting often focuses only on minimizing prediction errors, ignoring the specific requirements of real-world applications that employ them. This paper presents a new training methodology, which allows a forecasting model to dynamically adjust its focus based on the importance of forecast ranges specified by the end application. Unlike previous methods that fix these ranges beforehand, our training approach breaks down predictions over the entire signal range into smaller segments, which are then dynamically weighted and combined to produce accurate forecasts. We tested our method on standard datasets, including a new dataset from wireless communication, and found that not only it improves prediction accuracy but also improves the performance of end application employing the forecasting model. This research provides a basis for creating forecasting systems that better connect prediction and decision-making in various practical applications.
