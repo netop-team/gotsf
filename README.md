@@ -5,8 +5,10 @@
 <img src="figures/gotsf-logo.png" alt="Logo" width="400"/>
 </p>
    
-[![paper](https://img.shields.io/static/v1?label=arXiv&message=2402.03885&color=B31B1B&logo=arXiv)](https://arxiv.org/pdf/2504.17493)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://arxiv.org/pdf/2504.17493)
+
+[![paper](https://img.shields.io/static/v1?label=arXiv&message=2402.03885&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2504.17493)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/papers/2504.17493)
+[![5G Dataset](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/datasets/netop/Beam-Level-Traffic-Timeseries-Dataset)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/MIT)
 
 </div>
