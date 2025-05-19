@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1>Goal-Oriented Time-Series Forecasting: Foundation Framework Design </h1>
+<!-- <h1>Goal-Oriented Time-Series Forecasting: Foundation Framework Design </h1> -->
 <p align="center">
 <img src="figures/gotsf-logo.png" alt="Logo" width="400"/>
 </p>
