@@ -13,7 +13,7 @@
 </div>
 This repository contains the official implementation of the paper:
 
-   >L. Fechete*†, M. Sana†, F. Ayed†, N. Piovesan†, W. Li†, A. De Domenico†, T. Si Salem†‡. Goal-Oriented Time-Series Forecasting: Foundation Framework Design.
+   >L. Fechete*†, M. Sana†, F. Ayed†, N. Piovesan†, W. Li†, A. De Domenico†, T. Si Salem†‡.   Goal-Oriented Time-Series Forecasting: Foundation Framework Design.
    ><br>* École Polytechnique, Palaiseau, France (Research Intern);<br>† Paris Research Center, Huawei Technologies, Boulogne-Billancourt, France;<br>‡ Lead Researcher for this study.
 
 ## 📝 Abstract:
