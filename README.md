@@ -1,13 +1,15 @@
+<p align="center">
+<img src="figures/gotsf-logo.png" alt="Logo" width="400"/>
+</p>
 <div align="center">
-<h1>Goal-Oriented Time-Series Forecasting:<br> Foundation Framework Design</h1>
-![main figure](figures/gotsf-logo.png)
-
+<!-- <h1>Goal-Oriented Time-Series Forecasting:<br> Foundation Framework Design</h1> -->=
 [![paper](https://img.shields.io/static/v1?label=arXiv&message=2402.03885&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2504.17493)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](https://huggingface.co/papers/2504.17493)
 [![5G Dataset](https://img.shields.io/badge/Dataset-Hugging_Face-blue)](https://huggingface.co/datasets/netop/Beam-Level-Traffic-Timeseries-Dataset)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/MIT)
 
 </div>
+
 This repository contains the official implementation of the paper:
 
    >L. Fechete*†, M. Sana†, F. Ayed†, N. Piovesan†, W. Li†, A. De Domenico†, T. Si Salem†‡. Goal-Oriented Time-Series Forecasting: Foundation Framework Design.
